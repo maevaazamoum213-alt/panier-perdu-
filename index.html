@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Panier Perdu – Récupérez vos paniers abandonnés</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Inter:wght@400;500;600&display=swap">
+<style>
+:root{--bg:#f4efe3;--text:#14261e;--muted:#4b5f55;--card:#1f4a3a;--card-text:#f1ece0;--accent:#e07b39;--accent-text:#1b1208}
+@media (prefers-color-scheme: dark){:root{--bg:#0f1d17;--text:#f1ece0;--muted:#a9b8ae}}
+*,*::before,*::after{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font-family:Inter,system-ui,-apple-system,"Segoe UI",sans-serif;line-height:1.6}
+main{max-width:34rem;margin:0 auto;padding:1.5rem 1.25rem 3rem}
+.logo{font-family:Fraunces,Georgia,"Times New Roman",serif;font-weight:600;font-size:1.05rem;margin:0 0 3rem}
+h1{font-family:Fraunces,Georgia,"Times New Roman",serif;font-weight:700;font-size:clamp(2.2rem,9vw,3.2rem);line-height:1.08;letter-spacing:-.01em;margin:0 0 1.25rem}
+.lead{font-size:1.05rem;color:var(--muted);margin:0 0 2rem;max-width:30rem}
+.btn{display:inline-block;background:var(--accent);color:var(--accent-text);font-weight:600;font-size:1.05rem;text-decoration:none;padding:.95rem 1.5rem;border-radius:.5rem}
+.note{font-size:.85rem;color:var(--muted);margin:.8rem 0 0}
+.exemple{background:var(--card);color:var(--card-text);border-radius:.6rem;padding:1.25rem 1.25rem 1.4rem;margin-top:3rem}
+.exemple small{display:block;font-size:.8rem;opacity:.75;margin-bottom:.8rem}
+.exemple strong{display:block;font-size:1.05rem;margin-bottom:.4rem}
+.exemple p{margin:0 0 .6rem;font-size:.95rem}
+.code{display:inline-block;border:1px dashed var(--accent);color:#f0a56e;border-radius:.3rem;padding:.05rem .5rem;font-weight:600}
+</style>
+</head>
+<body>
+<main>
+  <p class="logo">Panier Perdu</p>
+  <h1>Vos clients ont rempli leur panier. Faites-les revenir.</h1>
+  <p class="lead">Panier Perdu envoie deux relances écrites aux visiteurs qui n’ont pas terminé leur commande sur votre boutique Shopify ou WooCommerce. Vous voyez, en euros, ce qu’elles vous rapportent.</p>
+  <a class="btn" href="https://buy.stripe.com/cNi7sKcctgGCeT9169abK00">S’abonner pour 29 € par mois</a>
+  <p class="note">Accès envoyé par e-mail juste après le paiement.</p>
+  <section class="exemple">
+    <small>Exemple de relance envoyée à votre client</small>
+    <strong>Camille, votre panier vous attend</strong>
+    <p>Bonjour Camille, vous avez laissé un sac en lin et une gourde dans votre panier. Ils sont toujours disponibles.</p>
+    <p>Pour vous aider à vous décider, voici un code valable 48 heures : <span class="code">MERCI10</span></p>
+  </section>
+</main>
+</body>
+</html>
